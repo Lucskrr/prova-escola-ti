@@ -1,15 +1,7 @@
-import express from "express";
-
-const app = express();
-app.disable("x-powered-by");
-app.use(express.json());
-
-app.get("/healthz", (_req, res) => {
-  res.status(200).json({ status: "ok" });
-});
+import { criarApp } from "./app.js";
 
 const PORT = Number(process.env.PORT ?? 8080);
-const server = app.listen(PORT, "0.0.0.0", () => {
+const server = criarApp().listen(PORT, "0.0.0.0", () => {
   console.log(`API ouvindo em 0.0.0.0:${PORT}`);
 });
 
