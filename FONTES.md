@@ -16,7 +16,6 @@
 
 | # | URL | O que foi consultado | Onde aparece no entregável |
 | --- | --- | --- | --- |
-| 1 | https://claude.ai/share/d19a11d1-5b3f-48a8-a3df-99a8d5391b2c | consulta para o docker | |
 
 *(Ex.: `https://docs.oracle.com/...` → sintaxe de `Optional` → `plan.md` na
 seção de decisões. Esse link é ILUSTRATIVO — fora de linha numerada não
@@ -38,7 +37,7 @@ conta. Se nenhum site foi consultado, escreva: **"Nenhum site consultado."**)*
 
 | # | Link público da conversa | Onde o conteúdo foi usado |
 | --- | --- | --- |
-| — | | |
+| 1 | https://claude.ai/share/32b4ecd4-d337-4d0b-afb1-8c0391ee2ad5 | Claude (IA, uso como consulta) | <link público desta conversa> | `src/*.ts`, `Containerfile`, `.dockerignore`, `tsconfig.json`, `package.json`, `eslint.config.js`, `README.md`
 
 *(Se nenhuma IA foi utilizada, escreva: **"Nenhuma IA utilizada."**)*
 
@@ -48,7 +47,7 @@ Declaro que todo o conteúdo deste repositório que não é de minha autoria dir
 está declarado acima, e que consigo explicar qualquer trecho entregue — tenha
 ele vindo da minha cabeça, de um site ou de uma IA consultada.
 
-**Nome / RA:**
+**Lucca Rocha Oliveira / RA: 25184113-2**
 
 [^transparencia]: Este arquivo é, ele mesmo, um exemplo de markdown bem
     usado: *alert* para a regra crítica, tabelas para os registros e *footnote*
